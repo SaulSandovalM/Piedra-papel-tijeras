@@ -1,33 +1,84 @@
-.App {
-  text-align: center;
+.back {
+  background: #000;
+  width: 100%;
+  height: 100vh;
+  color: #FFF;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.content {
+  width: 60%;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.title {
+  float: left;
+  width: 300px;
+}
+.score {
+  flex-direction: column;
+  float: right;
+}
+.point {
+  display: flex;
+  flex-direction: row;
+  margin-top: -25px;
+}
+.space {
+  margin-right: 10px;
+}
+.select {
+  margin-top: 50px;
+  font-size: 25px;
+}
+#piedra {
+  background: #eb5757;
+  width: 180px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  padding-top: 15px;
+  cursor: pointer;
+}
+#papel {
+  background: #2d9cdb;
+  width: 180px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  padding-top: 15px;
+  cursor: pointer;
+}
+#tijera {
+  background: #6fcf97;
+  width: 180px;
+  height: 35px;
+  border-radius: 5px;
+  margin: 5px;
+  position: relative;
+  text-align: center;
+  padding-top: 15px;
+  cursor: pointer;
+}
+.w {
+  width: 560px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
+#selection {
+  color: green;
+}
+#pc {
+  color: #6fcf97;
+  margin-top: -20px;
+}
+.space2 {
+  margin-right: 10px;
+  margin-top: -20px;
 }
